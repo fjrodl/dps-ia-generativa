@@ -21,12 +21,17 @@ web-libro-ia-generativa/
 
 ## Publicación en GitHub Pages
 
-1. Crea un repositorio nuevo (por ejemplo `web_libro_ia_generativa_segura`).
-2. Sube el contenido de esta carpeta a la raíz del repositorio.
-3. En *Settings → Pages*, selecciona la rama `main` y la carpeta `/ (root)`.
-4. La web quedará disponible en `https://<usuario>.github.io/<repositorio>/`.
+Sitio publicado automáticamente en:
 
-El archivo `.nojekyll` garantiza que los ficheros se sirvan tal cual.
+**https://fjrodl.github.io/dps-ia-generativa/**
+
+El despliegue lo ejecuta `.github/workflows/deploy.yml` en cada push a `main`
+(flujo «Pages artifact» de GitHub Actions). No se recompila LaTeX: los PDFs
+versionados en `pdf/` se publican tal cual.
+
+Para habilitar Pages en un repositorio nuevo: *Settings → Pages → Source:
+GitHub Actions* (o vía API con `build_type=workflow`). El archivo `.nojekyll`
+garantiza que los ficheros se sirvan tal cual.
 
 ## Actualizar el contenido
 
