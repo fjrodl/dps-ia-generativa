@@ -3,3 +3,6 @@
 Thumbs.db
 *.swp
 *~
+
+# Documentación interna (no publicar en el sitio)
+docs/
