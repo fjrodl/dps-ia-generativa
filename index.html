@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ingeniería del software seguro en la era de la IA generativa - Libro</title>
+  <meta name="description" content="Libro universitario de Diseño y Programación Seguras. Ingeniería del software seguro en la era de la IA generativa, de Francisco Javier Rodríguez Lera y Camino Fernández Llamas. Descarga gratuita del PDF y diapositivas por capítulo." />
+  <meta name="keywords" content="ingeniería del software seguro, IA generativa, diseño y programación seguras, ciberseguridad, Universidad de León, AI-SDLC, vulnerabilidades, verificación, pipeline de validación" />
+  <meta name="author" content="Francisco Javier Rodríguez Lera, Camino Fernández Llamas" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0f4c5c" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="book" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:title" content="Ingeniería del software seguro en la era de la IA generativa" />
+  <meta property="og:description" content="Libro universitario de Diseño y Programación Seguras. Descarga gratuita en PDF y diapositivas por capítulo." />
+  <meta property="og:image" content="img/book_cover.png" />
+  <meta property="og:image:alt" content="Portada del libro Ingeniería del software seguro en la era de la IA generativa" />
+  <meta property="book:author" content="Francisco Javier Rodríguez Lera" />
+  <meta property="book:author" content="Camino Fernández Llamas" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ingeniería del software seguro en la era de la IA generativa" />
+  <meta name="twitter:description" content="Libro universitario de Diseño y Programación Seguras. Descarga gratuita del PDF y diapositivas." />
+  <meta name="twitter:image" content="img/book_cover.png" />
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Book",
+    "name": "Ingeniería del software seguro en la era de la IA generativa",
+    "alternateName": "Diseño y Programación Seguras",
+    "image": "img/book_cover.png",
+    "description": "Libro universitario de Diseño y Programación Seguras orientado a la corrección, la seguridad, la portabilidad, la verificación y la metodología del desarrollo de software asistido por IA generativa.",
+    "inLanguage": "es",
+    "datePublished": "2026-11",
+    "version": "1.3",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Francisco Javier Rodríguez Lera",
+        "affiliation": { "@type": "Organization", "name": "Universidad de León" }
+      },
+      {
+        "@type": "Person",
+        "name": "Camino Fernández Llamas",
+        "affiliation": { "@type": "Organization", "name": "Universidad de León" }
+      }
+    ],
+    "publisher": {
+      "@type": "Organization",
+      "name": "Universidad de León"
+    },
+    "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "isAccessibleForFree": true,
+    "encodingFormat": "application/pdf",
+    "about": [
+      { "@type": "Thing", "name": "Ingeniería del software seguro" },
+      { "@type": "Thing", "name": "IA generativa" },
+      { "@type": "Thing", "name": "Ciberseguridad" },
+      { "@type": "Thing", "name": "Verificación de software" }
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <img src="img/ule.png" alt="Universidad de León" />
+    <div>
+      <div class="header-title">Ingeniería del software seguro en la era de la IA generativa</div>
+      <div class="header-subtitle">Libro · Universidad de León</div>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="book-cover-wrapper">
+      <a class="book-cover-link" href="pdf/libro.pdf" download="libro.pdf" title="Descargar el libro en PDF">
+        <img src="img/book_cover.png" alt="Portada del libro Ingeniería del software seguro en la era de la IA generativa" />
+      </a>
+      <p class="book-cover-hint">&#8595; Haz clic en la portada para descargar el PDF</p>
+    </div>
+
+    <div class="hero-info">
+      <h1>Ingeniería del software seguro en la era de la IA generativa</h1>
+      <p class="subtitle">Diseño y Programación Seguras</p>
+
+      <dl class="book-meta">
+        <dt>Autores</dt>
+        <dd>Francisco Javier Rodríguez Lera &amp; Camino Fernández Llamas</dd>
+        <dt>Versión</dt>
+        <dd>v1.3</dd>
+        <dt>Institución</dt>
+        <dd>Universidad de León</dd>
+        <dt>Programa</dt>
+        <dd>Máster Universitario de Investigación en Ciberseguridad</dd>
+        <dt>Edición</dt>
+        <dd>7 de noviembre de 2026</dd>
+        <dt>Licencia</dt>
+        <dd><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a></dd>
+      </dl>
+
+      <p class="hero-desc">
+        La ingeniería del software seguro es, por naturaleza, una disciplina integradora. Este libro
+        forma ingenieras e ingenieros capaces de diseñar, razonar, verificar y evolucionar
+        <strong>software seguro</strong> en la era de la IA generativa. Combina fundamentos teoricos
+        -corrección, seguridad, portabilidad y evaluación reproducible- con familias de
+        vulnerabilidades, aislamiento técnico, un <em>pipeline</em> de validación, verificación de
+        código generado y una metodología docente AI-SDLC, todo apoyado en un caso transversal
+        (conversión CSV a PDF/XLSX) y en prácticas de laboratorio.
+      </p>
+
+      <a class="button" href="pdf/libro.pdf" download="libro.pdf">
+        &#8595;&nbsp; Descargar el libro (PDF)
+      </a>
+    </div>
+  </div>
+
+  <!-- DESCRIPCIÓN -->
+  <section>
+    <h2>Sobre el libro</h2>
+    <p class="section-intro">
+      El libro está organizado en una parte teórica de trece capítulos, un caso de estudio transversal
+      y una parte práctica de laboratorio.
+    </p>
+
+    <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); gap:1.25rem; margin-top:1rem;">
+
+      <div class="card" style="padding:1.25rem;">
+        <h3 style="margin:0 0 0.5rem 0; color:var(--secondary);">Parte I - Fundamentos y método</h3>
+        <ul style="margin:0; padding-left:1.25rem; color:#4b5563; font-size:0.97rem; line-height:1.7;">
+          <li>Cap. 1 - Introducción y motivación</li>
+          <li>Cap. 2 - Principios clásicos y diseño seguro</li>
+          <li>Cap. 3 - Correctitud y seguridad</li>
+          <li>Cap. 4 - Vulnerabilidades clásicas</li>
+          <li>Cap. 5 - Portabilidad y plataformas</li>
+          <li>Cap. 6 - Evaluación reproducible de sistemas de IA</li>
+          <li>Cap. 7 - El Reglamento de IA (AI Act) y los espacios controlados</li>
+          <li>Cap. 8 - Confianza no calibrada</li>
+          <li>Cap. 9 - Aislamiento técnico y riesgos de los agentes</li>
+          <li>Cap. 10 - Pipeline de validación automática</li>
+          <li>Cap. 11 - Verificación de código generado</li>
+          <li>Cap. 12 - Metodología docente AI-SDLC</li>
+          <li>Cap. 13 - Conclusiones</li>
+        </ul>
+      </div>
+
+      <div class="card" style="padding:1.25rem;">
+        <h3 style="margin:0 0 0.5rem 0; color:var(--secondary);">Parte II - Caso y prácticas</h3>
+        <ul style="margin:0; padding-left:1.25rem; color:#4b5563; font-size:0.97rem; line-height:1.7;">
+          <li>Anexo A - Caso de estudio transversal (conversión documental)</li>
+          <li>Anexo B - Prácticas de laboratorio</li>
+          <li>Anexo C - Plantillas de registro</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SLIDES -->
+  <section>
+    <h2>Diapositivas</h2>
+    <p class="section-intro">
+      Materiales de clase en formato de diapositivas para cada capítulo y anexo del libro.
+      Haz clic en cualquier diapositiva para descargar el PDF correspondiente (versión alumnado).
+    </p>
+
+    <p style="font-weight:700; color:var(--primary); margin:0 0 0.75rem 0; font-size:1rem;">Capítulos</p>
+    <div class="slides-grid">
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap01.pdf" download="slides_cap01.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap01.png" alt="Portada diapositivas Capítulo 1" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 1</span>
+            <p class="slide-title">Introducción y motivación</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap02.pdf" download="slides_cap02.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap02.png" alt="Portada diapositivas Capítulo 2" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 2</span>
+            <p class="slide-title">Principios clásicos y diseño seguro</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap03.pdf" download="slides_cap03.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap03.png" alt="Portada diapositivas Capítulo 3" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 3</span>
+            <p class="slide-title">Correctitud y seguridad</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap04.pdf" download="slides_cap04.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap04.png" alt="Portada diapositivas Capítulo 4" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 4</span>
+            <p class="slide-title">Vulnerabilidades clásicas</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap05.pdf" download="slides_cap05.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap05.png" alt="Portada diapositivas Capítulo 5" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 5</span>
+            <p class="slide-title">Portabilidad y plataformas</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap06.pdf" download="slides_cap06.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap06.png" alt="Portada diapositivas Capítulo 6" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 6</span>
+            <p class="slide-title">Evaluación reproducible de sistemas de IA</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap07.pdf" download="slides_cap07.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap07.png" alt="Portada diapositivas Capítulo 7" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 7</span>
+            <p class="slide-title">El Reglamento de IA (AI Act) y los espacios controlados</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap08.pdf" download="slides_cap08.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap08.png" alt="Portada diapositivas Capítulo 8" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 8</span>
+            <p class="slide-title">Confianza no calibrada</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap09.pdf" download="slides_cap09.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap09.png" alt="Portada diapositivas Capítulo 9" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 9</span>
+            <p class="slide-title">Aislamiento técnico y riesgos de los agentes</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap10.pdf" download="slides_cap10.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap10.png" alt="Portada diapositivas Capítulo 10" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 10</span>
+            <p class="slide-title">Pipeline de validación automática</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap11.pdf" download="slides_cap11.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap11.png" alt="Portada diapositivas Capítulo 11" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 11</span>
+            <p class="slide-title">Verificación de código generado</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap12.pdf" download="slides_cap12.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap12.png" alt="Portada diapositivas Capítulo 12" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 12</span>
+            <p class="slide-title">Metodología docente AI-SDLC</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/cap13.pdf" download="slides_cap13.pdf">
+          <img class="slide-thumbnail" src="img/slides/cap13.png" alt="Portada diapositivas Capítulo 13" />
+          <div class="slide-info">
+            <span class="slide-label">Capítulo 13</span>
+            <p class="slide-title">Conclusiones</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+
+    <p style="font-weight:700; color:var(--primary); margin:2rem 0 0.75rem 0; font-size:1rem;">Anexos</p>
+    <div class="slides-grid">
+
+      <div class="slide-card">
+        <a href="pdf/slides/anexoA.pdf" download="slides_anexoA.pdf">
+          <img class="slide-thumbnail" src="img/slides/anexoA.png" alt="Portada diapositivas Anexo A" />
+          <div class="slide-info">
+            <span class="slide-label">Anexo A</span>
+            <p class="slide-title">Caso de estudio transversal (conversión documental)</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="slide-card">
+        <a href="pdf/slides/anexoB.pdf" download="slides_anexoB.pdf">
+          <img class="slide-thumbnail" src="img/slides/anexoB.png" alt="Portada diapositivas Anexo B" />
+          <div class="slide-info">
+            <span class="slide-label">Anexo B</span>
+            <p class="slide-title">Prácticas de laboratorio</p>
+            <span class="slide-dl">&#8595; Descargar PDF</span>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CÓMO CITAR -->
+  <section>
+    <h2>Cómo citar</h2>
+    <p class="section-intro">Si utilizas este libro en tu investigación o docencia, puedes citarlo con la siguiente entrada BibTeX:</p>
+    <div class="bibtex-wrapper">
+      <button class="bibtex-copy" onclick="copyBibtex()" aria-label="Copiar BibTeX al portapapeles">Copiar</button>
+      <pre class="bibtex-block" id="bibtex-entry">@book{rodriguezlera2026ia,
+  author    = {Rodr{\'{i}}guez Lera, Francisco Javier and
+               Fern{\'{a}}ndez Llamas, Camino},
+  title     = {Ingenier{\'{i}}a del software seguro en la era de la {IA} generativa},
+  subtitle  = {Dise{\~{n}}o y Programaci{\'{o}}n Seguras},
+  publisher = {Universidad de Le{\'{o}}n},
+  year      = {2026},
+  note      = {v1.3},
+  url       = {https://github.com/fjrodl/disenyo-programacion-seguros},
+  license   = {CC BY-NC-ND 4.0}
+}</pre>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p>
+      &copy; 2026 Francisco Javier Rodríguez Lera &amp; Camino Fernández Llamas -
+      Distribuido bajo licencia <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">CC BY-NC-ND 4.0</a>.
+    </p>
+    <p>Universidad de León - Instituto I4 - Escuela de Ingenierías Industrial e Informática</p>
+  </div>
+</footer>
+
+<script>
+function copyBibtex() {
+  const text = document.getElementById('bibtex-entry').textContent;
+  navigator.clipboard.writeText(text).then(function() {
+    const btn = document.querySelector('.bibtex-copy');
+    btn.textContent = '\u2713 Copiado';
+    btn.classList.add('copied');
+    setTimeout(function() {
+      btn.textContent = 'Copiar';
+      btn.classList.remove('copied');
+    }, 2000);
+  });
+}
+</script>
+</body>
+</html>
